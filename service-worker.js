@@ -21,7 +21,10 @@ workbox.precaching.precacheAndRoute([
     {url: "/js/fc.js", revision: "1"},
     {url: "/js/materialize.min.js", revision: "1"},
     {url: "/js/sw-register.js", revision: "1"},
-]);
+],
+    {
+        ignoreUrlParametersMatching: [/.*/]
+});
 
 workbox.routing.registerRoute(
     new RegExp("/pages"),
