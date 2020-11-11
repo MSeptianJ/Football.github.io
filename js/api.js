@@ -47,7 +47,7 @@ const getTeamList = () => {
                                     <div class="col s12 m6">
                                         <div class="card horizontal card-home no-padding">
                                             <div class="card-image img-home col s5">
-                                                <a href="../fc.html?id=${team.id}">
+                                                <a href="./fc.html?id=${team.id}">
                                                     <img src="${team.crestUrl.replace(/^http:\/\//i, "https://")}" class="responsive-img">
                                                 </a>
                                             </div>
@@ -60,7 +60,7 @@ const getTeamList = () => {
                                                     <p class="">Founded : ${team.founded}</p>
                                                 </div>
                                                 <div class="card-action no-padding home-email">
-                                                    <a href="../fc.html?id=${team.id}" class="blue-text">
+                                                    <a href="./fc.html?id=${team.id}" class="blue-text">
                                                         See More
                                                     </a>
                                                 </div>
@@ -88,7 +88,7 @@ const getTeamList = () => {
                     <div class="col s12 m6">
                         <div class="card horizontal card-home no-padding">
                             <div class="card-image img-home col s5">
-                                <a href="../fc.html?id=${team.id}">
+                                <a href="./fc.html?id=${team.id}">
                                     <img src="${team.crestUrl.replace(/^http:\/\//i, "https://")}" class="responsive-img">
                                 </a>
                             </div>
@@ -101,7 +101,7 @@ const getTeamList = () => {
                                     <p class="">Founded : ${team.founded}</p>
                                 </div>
                                 <div class="card-action no-padding home-email">
-                                    <a href="../fc.html?id=${team.id}" class="blue-text">
+                                    <a href="./fc.html?id=${team.id}" class="blue-text">
                                         See More
                                     </a>
                                 </div>
@@ -432,7 +432,7 @@ const getBookmarkTeamList = () => {
                     <div class="col s12">
                         <div class="card horizontal card-home no-padding">
                             <div class="card-image img-home col s5">
-                                <a href="../fc.html?id=${db.id}&bookmarked=true">
+                                <a href="./fc.html?id=${db.id}&bookmarked=true">
                                     <img src="${db.crestUrl.replace(/^http:\/\//i, "https://")}" class="responsive-img">
                                 </a>
                             </div>
@@ -445,7 +445,7 @@ const getBookmarkTeamList = () => {
                                     <p class="">Founded : ${db.founded}</p>
                                 </div>
                                 <div class="card-action no-padding home-email">
-                                    <a href="../fc.html?id=${db.id}&bookmarked=true" class="blue-text">
+                                    <a href="./fc.html?id=${db.id}&bookmarked=true" class="blue-text">
                                         See More
                                     </a>
                                     <button class="btn red waves-effect waves-light lighten-1 bookmark-delete delete-btn" id="${db.id}">Delete</button>
