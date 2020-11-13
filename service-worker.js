@@ -8,7 +8,7 @@ else
 workbox.precaching.precacheAndRoute([
     {url: "/index.html", revision: "1"},
     {url: "/fc.html", revision: "1"},
-    {url: "/manifest.json", revision: "1"},
+    {url: "/manifest.json", revision: "2"},
     {url: "/css/custom.css", revision: "1"},
     {url: "/css/materialize.min.css", revision: "1"},
     {url: "/img/loading.gif", revision: "1"},
@@ -20,7 +20,7 @@ workbox.precaching.precacheAndRoute([
     {url: "/js/main.js", revision: "1"},
     {url: "/js/fc.js", revision: "1"},
     {url: "/js/materialize.min.js", revision: "1"},
-    {url: "/js/sw-register.js", revision: "1"},
+    {url: "/js/sw-register.js", revision: "8"},
 ],
     {
         ignoreUrlParametersMatching: [/.*/]
