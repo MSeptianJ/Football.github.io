@@ -45,7 +45,7 @@ if (("PushManager" in window)) {
     navigator.serviceWorker.getRegistration().then(registration => {
         registration.pushManager.subscribe({
             userVisibleOnly: true,
-            applicationServerKey: urlBase64ToUint8Array("BGNqgYKsD1u6ShwlHR-q9AllYhYQ2FkbDAWxNRvx_y_FAuP4EOWnJyRkgEU8Yxma_5yAsaf0B_fNSJZ6mMlfgfY")
+            applicationServerKey: urlBase64ToUint8Array("BLT6nbHwKd7-b3Zc9Hc2Bzy4dhRZrq7LTFs7A-_T4BdKehB9aMDV5mNbiqOoTOyOp5rpB2S074S1EsDZQww_Nmo")
         })
             .then(subscribe => {
                 console.table({
