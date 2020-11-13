@@ -1,8 +1,8 @@
 let webPush = require("web-push");
 
 const vapidKeys = {
-    "publicKeys": "BGNqgYKsD1u6ShwlHR-q9AllYhYQ2FkbDAWxNRvx_y_FAuP4EOWnJyRkgEU8Yxma_5yAsaf0B_fNSJZ6mMlfgfY",
-    "privateKeys": "3E2Ni63_nW5RDj\nDes-_816yI9_ajkcWBAoNSy1OL4go"
+    "publicKeys": "BLT6nbHwKd7-b3Zc9Hc2Bzy4dhRZrq7LTFs7A-_T4BdKehB9aMDV5mNbiqOoTOyOp5rpB2S074S1EsDZQww_Nmo",
+    "privateKeys": "AspAx4UyjBrU8Kzsjv_eFoGwJnAwDTdEQiCijXmdwNg"
 }
 
 webPush.setVapidDetails(
@@ -12,17 +12,17 @@ webPush.setVapidDetails(
 )
 
 let pushSubscription = {
-    "endpoint": "https://fcm.googleapis.com/fcm/send/e2h8tWhZ-Cw:APA91bH9BUjNA40x99IlvKqfQR2XHKVtIEzLbHKkoiaEtXPSVrMvV9iTpct88-BOjAgA7P7Hn7eBKeQy8BjozWDtT14SqjwmQ8APzPmiyg7MTmVcdKcz6KmvudTNyzFrSTDaLNtrhey2",
+    "endpoint": "https://fcm.googleapis.com/fcm/send/daFFSEUc1c4:APA91bHbamyP96VE3Rujw4zD9XxowUT5IQI6AeidobLLoSNOo2JzXwk2TNOk05CcwMQork84riwkCwzVcRZXPrv6tJjPUkHV7IUdIuHmCTCC9BPZ2fJ3gOE8t4CnUltWsXyMaxV6sDEX",
     "keys": {
-        "p256dh": "BNIKBvikfN3243YXc5U8MIbpSdwGkVVb3DnfZYx0e4aNjfXUjvgqBipF/P2R+Fv4YHOtytodrZRaGfiZsYHDzgc=",
-        "auth": "Py1sN6sZwTuQYvF/9SKzmw=="
+        "p256dh": "BOHcGHKz9XDVN3FkiXWOe0Dg4UR13Qmco6f9BUCKAuOZfSXE7wzAIgMGpGw8AuoJbEsctg+hGknlohIKcNNNvGA=",
+        "auth": "8E+KrDifNN5mIW8Zge3SPQ=="
     }
 };
 
 let payload = "Thank you for using this app";
 
 let options = {
-    gcmAPIKey: "765977160668",
+    gcmAPIKey: "721258085263",
     TTL: 60
 };
 
